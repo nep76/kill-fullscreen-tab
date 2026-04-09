@@ -13,7 +13,7 @@
     }
   },
   "background" : {
-    "service_worker": "killtab-worker.js"
+    "service_worker": "kill-fs-tab-worker.js"
   },
 
   "icons": {
