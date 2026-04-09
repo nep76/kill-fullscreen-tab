@@ -1,0 +1,25 @@
+{
+  "name": "Kill Fullscreen Tab",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "全画面ゆるすまじ",
+  "permissions": [ "scripting", "activeTab" ],
+  "commands": {
+    "forced-close": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      },
+      "description": "フルスクリーンタブを強制的に閉じる"
+    }
+  },
+  "background" : {
+    "service_worker": "killtab-worker.js"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
